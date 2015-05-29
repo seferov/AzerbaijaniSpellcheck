@@ -1,0 +1,99 @@
+#
+# Experimantal Hunspell affix file for Azerbaijani (az-AZ)
+#
+# Emin Mastizada <emin@mastizada.com>
+# Azerdict <azerdict.com>
+LANG az_AZ
+SET UTF-8
+AZN İiIıŞşÇçĞğÜüÖöƏə-qwertyuopasdfghjklzxcvbnmQWERTYUOPASDFGHJKLZXCVBNM'
+
+# Names, plural suffixes. -lər -lar
+# if last vowel is (eəiöü) -lar is appended
+# if last vowel is (aıou) -lar is appended
+# Examples: dəniz-lər alma-lar
+SFX L0 N 6
+SFX L0 0 lər [eəiöü]
+SFX L0 0 lər [eəiöü][^aeioöuü]
+SFX L0 0 lər [eəiöü][^aeioöuü][^aeioöuü]
+SFX L0 0 lar [aıou]
+SFX L0 0 lar [aıou][^aeioöuü]
+SFX L0 0 lar [aıou][^aeioöuü][^aeioöuü]
+
+SFX L1 N 6
+SFX L1 0 lərə [eəiöü]
+SFX L1 0 lərə [eəiöü][^aeioöuü]
+SFX L1 0 lərə [eəiöü][^aeioöuü][^aeioöuü]
+SFX L1 0 lara [aıou]
+SFX L1 0 lara [aıou][^aeioöuü]
+SFX L1 0 lara [aıou][^aeioöuü][^aeioöuü]
+
+SFX L2 N 6
+SFX L2 0 ləri [eəiöü]
+SFX L2 0 ləri [eəiöü][^aeioöuü]
+SFX L2 0 ləri [eəiöü][^aeioöuü][^aeioöuü]
+SFX L2 0 ları [aıou]
+SFX L2 0 ları [aıou][^aeioöuü]
+SFX L2 0 ları [aıou][^aeioöuü][^aeioöuü]
+
+# Combined with -in -ın
+SFX L3 N 6
+SFX L3 0 lərin [eəiöü]
+SFX L3 0 lərin [eəiöü][^aeioöuü]
+SFX L3 0 lərin [eəiöü][^aeioöuü][^aeioöuü]
+SFX L3 0 ların [aıou]
+SFX L3 0 ların [aıou][^aeioöuü]
+SFX L3 0 ların [aıou][^aeioöuü][^aeioöuü]
+
+# Combined with -in-i -ın-ı
+SFX L4 N 6
+SFX L4 0 lərini [eəiöü]
+SFX L4 0 lərini [eəiöü][^aeioöuü]
+SFX L4 0 lərini [eəiöü][^aeioöuü][^aeioöuü]
+SFX L4 0 larını [aıou]
+SFX L4 0 larını [aıou][^aeioöuü]
+SFX L4 0 larını [aıou][^aeioöuü][^aeioöuü]
+
+# Combined with -in-ə -ın-a
+SFX L5 N 6
+SFX L5 0 lərinə [eəiöü]
+SFX L5 0 lərinə [eəiöü][^aeioöuü]
+SFX L5 0 lərinə [eəiöü][^aeioöuü][^aeioöuü]
+SFX L5 0 larına [aıou]
+SFX L5 0 larına [aıou][^aeioöuü]
+SFX L5 0 larına [aıou][^aeioöuü][^aeioöuü]
+
+# Combined with -i-nin -ı-nın
+SFX L6 N 6
+SFX L6 0 lərinin [eəiöü]
+SFX L6 0 lərinin [eəiöü][^aeioöuü]
+SFX L6 0 lərinin [eəiöü][^aeioöuü][^aeioöuü]
+SFX L6 0 larının [aıou]
+SFX L6 0 larının [aıou][^aeioöuü]
+SFX L6 0 larının [aıou][^aeioöuü][^aeioöuü]
+
+# Combined with -in-də -ın-da
+SFX L7 N 6
+SFX L7 0 lərində [eəiöü]
+SFX L7 0 lərində [eəiöü][^aeioöuü]
+SFX L7 0 lərində [eəiöü][^aeioöuü][^aeioöuü]
+SFX L7 0 larında [aıou]
+SFX L7 0 larında [aıou][^aeioöuü]
+SFX L7 0 larında [aıou][^aeioöuü][^aeioöuü]
+
+# Combined with -in-dən -ın-dan
+SFX L8 N 6
+SFX L8 0 lərindən [eəiöü]
+SFX L8 0 lərindən [eəiöü][^aeioöuü]
+SFX L8 0 lərindən [eəiöü][^aeioöuü][^aeioöuü]
+SFX L8 0 larından [aıou]
+SFX L8 0 larından [aıou][^aeioöuü]
+SFX L8 0 larından [aıou][^aeioöuü][^aeioöuü]
+
+# Combined with -in-ylə -ı-yla
+SFX L9 N 6
+SFX L9 0 ləriylə [eəiöü]
+SFX L9 0 ləriylə [eəiöü][^aeioöuü]
+SFX L9 0 ləriylə [eəiöü][^aeioöuü][^aeioöuü]
+SFX L9 0 larıyla [aıou]
+SFX L9 0 larıyla [aıou][^aeioöuü]
+SFX L9 0 larıyla [aıou][^aeioöuü][^aeioöuü]
